@@ -1,0 +1,8 @@
+import { v4 as uuidv4 } from 'uuid';
+
+const generateSorteoCode = () => {
+  return uuidv4();
+};
+
+// Al registrar el usuario en Firebase
+userData.sorteoCode = generateSorteoCode();
